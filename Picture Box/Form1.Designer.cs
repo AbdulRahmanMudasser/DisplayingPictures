@@ -43,18 +43,18 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(140, 368);
+            this.button1.Location = new System.Drawing.Point(117, 363);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(146, 52);
+            this.button1.Size = new System.Drawing.Size(166, 55);
             this.button1.TabIndex = 1;
-            this.button1.Text = "button1";
+            this.button1.Text = "Browse Picture";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(902, 555);
+            this.ClientSize = new System.Drawing.Size(457, 462);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form1";
