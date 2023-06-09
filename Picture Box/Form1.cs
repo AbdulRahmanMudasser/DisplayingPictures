@@ -21,5 +21,19 @@ namespace Picture_Box
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+
+            openFileDialog.Filter = "Image Files | *jpg; *jpeg; *png; *gif; *bmp; *.tiff";
+
+            if (openFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                string imagePath = openFileDialog.FileName;
+
+                pictureBox1.Image = Image.FromFile(imagePath);
+            }
+        }
     }
 }
