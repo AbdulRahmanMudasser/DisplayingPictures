@@ -28,7 +28,7 @@ namespace Picture_Box
             OpenFileDialog openFileDialog = new OpenFileDialog();
 
             // set the filter to allow image files with various extensions
-            openFileDialog.Filter = "Image Files | *jpg; *jpeg; *png; *gif; *bmp; *.tiff";
+            openFileDialog.Filter = "Image Files | *.jpg; *.jpeg; *.png; *.gif; *.bmp; *.tiff";
 
             // display the OpenFileDialog and check if the user selected a file
             if (openFileDialog.ShowDialog() == DialogResult.OK)
